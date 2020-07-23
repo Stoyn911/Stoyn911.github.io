@@ -1,0 +1,19 @@
+button {
+   
+width: 120px;
+height: 45px;
+border-radius: 5px;
+background-color: rgb(247, 147, 26);
+margin: 30px;
+}
+
+
+button:active {background-color: rgb(41, 71, 241);} 
+
+
+/*button :active {background-color: rgb(190, 8, 44);}
+/*#oko-oko {background-color: rgb(160, 160, 240);}
+
+#hry {background-color: darkgreen;}
+
+/*размер кнопки 120пикс*45пикс.*/ 
