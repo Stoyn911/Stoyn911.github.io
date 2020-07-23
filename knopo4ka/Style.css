@@ -3,12 +3,12 @@ button {
 width: 120px;
 height: 45px;
 border-radius: 5px;
-background-color: darkorange;
+background-color: rgb(247, 147, 26);
 margin: 30px;
 }
 
 
-button:active {background-color: rgb(54, 81, 235);} 
+button:active {background-color: rgb(41, 71, 241);} 
 
 
 /*button :active {background-color: rgb(190, 8, 44);}
