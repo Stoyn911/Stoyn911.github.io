@@ -1,0 +1,11 @@
+button {background-color: rgb(47, 241, 128);
+width: 120px;
+height: 45px;
+border-radius: 5em;
+
+}
+
+button :active {background-color: rgb(190, 8, 44);}
+
+
+/*размер кнопки 120пикс*45пикс.*/ 
