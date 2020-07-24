@@ -1,0 +1,35 @@
+
+body {
+   margin: 50px auto;
+   width: 500px;
+  /* border: 50px seagreen;*/
+   
+}
+
+.blk {
+   width: 200px;
+   height: 100px;
+   text-align: center;
+   font-size: 1.75rem;
+   line-height: 98px;
+   border: 2px solid rgb(243, 14, 14);
+}
+
+.main {
+   position: relative;
+   width: 20px;
+}
+
+.menus {
+   position: absolute;
+   left: 200px;
+   top: 0px;
+   display: none; /*--- если я это не скрываю - то у меня вообще ничего не отображает */
+}
+
+.item:hover + .menus, .menus:hover, .menu:hover {
+   color: rgb(248, 244, 14);
+   display: block;
+}
+
+
