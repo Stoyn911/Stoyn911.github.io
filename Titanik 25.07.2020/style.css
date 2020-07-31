@@ -1,22 +1,67 @@
-.Rectangle_1 {
-   background-color: rgb(50, 125, 173);
+
+
+body {
+   margin: 50px auto;
+   width: 980px;
+   height: 800px;
+}
+
+.Шар_0 {
+   background-image: url("image/Шар\ 0.png");
    position: absolute;
    left: 0px;
-   top: 468px;
+   top: 0px;
    width: 980px;
-   height: 9px;
-   z-index: 6; }
+   height: 800px;
+   z-index: 1;
+ }
 
- .Cloud1 {
-   background-color: rgb(248, 3, 3);
+.ice {
+   width: 330px;
+   height: 490px;
+   background-color: rgb(185, 214, 239);
    position: absolute;
+   top: 265px;
+   right: 0px;
+   bottom: 0px;
+   left: 327px;
+   z-index: 8;
+}
+
+.Cloud-left {
+   width: 200px;
+   height: 76px;
+   /*background-color: rgb(219, 33, 33);*/
+   position: absolute;
+   top: -16px;
+   right: 0px;
+   bottom: 0px;
    left: 131px;
-   top: -61px;
-   width: 201px;
-   height: 121px;
-   z-index: 2; }
- 
- .Rectangle_1_copy {
+   z-index: 3;
+}
+
+.Cloud {
+   width: 350px;
+   height: 76px;
+   /*background-color: rgb(219, 33, 33);*/
+   position: absolute;
+   top: -16px;
+   right: 0px;
+   bottom: 0px;
+   left: 512px;
+   z-index: 4;
+}
+
+.ship {
+   position: absolute;
+   left: 301px;
+   top: 438px;
+   width: 48px;
+   height: 21px;
+   z-index: 8;
+}
+
+/*.Rectangle_1_copy { 
    background-color: rgb(38, 107, 151);
    position: absolute;
    left: 0px;
@@ -24,299 +69,32 @@
    width: 980px;
    height: 343px;
    z-index: 7;
- }
+ }*/ /* ВОТ ЭТО КАК НА ЗАДНИЙ ПЛАН СПРЯТАТЬ?????? */
  
- .Sea {
-   position: absolute;
-   left: 0px;
-   top: 0px;
-   width: 980px;
-   height: 800px;
-   z-index: 9; }
- .ship {
-   background-image: url("ship.png");
-   position: absolute;
-   left: 301px;
-   top: 452px;
-   width: 48px;
-   height: 21px;
-   z-index: 8; }
- .Rectangle_1_copy {
+
+ .Rectangle_2 {
    background-color: rgb(38, 107, 151);
+   opacity: 0.812;
    position: absolute;
-   left: 0px;
-   top: 477px;
-   width: 980px;
-   height: 343px;
-   z-index: 7; }
- .Rectangle_1 {
-   background-color: rgb(50, 125, 173);
-   position: absolute;
-   left: 0px;
-   top: 468px;
-   width: 980px;
-   height: 9px;
-   z-index: 6;
+   left: 221px;
+   top: 474px;
+   width: 604px;
+   height: 295px;
+   z-index: 9;
  }
- .Rectangle_1_copy_2 {
-   background-color: rgb(221, 236, 250);
+
+ .COMING_SOON {
+   font-size: 72px;
+   font-family: "HouschkaPro";
+   color: rgb(240, 25, 25);
+   font-weight: bold;
+   line-height: 0.222;
+   text-align: left;
+   text-shadow: 0px 4px 0px rgba(0, 0, 0, 0.17);
    position: absolute;
-   left: 0px;
-   top: 464px;
-   width: 980px;
-   height: 6px;
-   z-index: 5; }
+   left: 241.937px;
+   top: 131.008px;
+   z-index: 1;
+ }
  
- .Cloud {
-   background-color: rgb(245, 122, 122);
-   position: absolute;
-   left: 512px;
-   top: -174px;
-   width: 375px;
-   height: 225px;
-   z-index: 3; }
  
-
-   .HOURS {
-      font-size: 24px;
-      font-family: "HouschkaPro";
-      color: rgb(243, 243, 243);
-      font-weight: bold;
-      line-height: 0.667;
-      text-align: left;
-      position: absolute;
-      left: 447.937px;
-      top: 610.496px;
-      z-index: 31;
-    }
-
-    ._09 {
-      font-size: 24px;
-      font-family: "Myriad Pro";
-      color: rgb(38, 107, 151);
-      line-height: 0.667;
-      text-align: left;
-      position: absolute;
-      left: 477.937px;
-      top: 558.496px;
-      z-index: 30;
-    }
-
-    .HOURS {
-      font-size: 24px;
-      font-family: "HouschkaPro";
-      color: rgb(243, 243, 243);
-      font-weight: bold;
-      line-height: 0.667;
-      text-align: left;
-      position: absolute;
-      left: 447.937px;
-      top: 610.496px;
-      z-index: 31;
-    }
-    
-    .COMING_SOON {
-      font-size: 72px;
-      font-family: "HouschkaPro";
-      color: rgb(238, 53, 53);
-      font-weight: bold;
-      line-height: 0.222;
-      text-align: left;
-      text-shadow: 0px 4px 0px rgba(0, 0, 0, 0.17);
-      position: absolute;
-      left: 241.937px;
-      top: 131.008px;
-      z-index: 43;
-    }
-    
-    .Shape_1 {
-      background-color: rgb(248, 248, 248);
-      position: absolute;
-      left: 326px;
-      top: 279px;
-      width: 329px;
-      height: 490px;
-      z-index: 11;
-    }
-    
-    .Ellipse_1 {
-      border-radius: 50%;
-      background-color: rgb(185, 214, 239);
-      position: absolute;
-      left: 344px;
-      top: 530px;
-      width: 70px;
-      height: 70px;
-      z-index: 26;
-    }
-    
-
-    .ice {
-      position: absolute;
-      left: 0px;
-      top: 0px;
-      width: 980px;
-      height: 800px;
-      z-index: 24;
-    }
-    .Rectangle_2 {
-      background-color: rgb(38, 107, 151);
-      opacity: 0.812;
-      position: absolute;
-      left: 221px;
-      top: 474px;
-      width: 604px;
-      height: 295px;
-      z-index: 23;
-    }
-    .Shape_2_copy {
-      background-color: rgb(205, 229, 245);
-      position: absolute;
-      left: 412px;
-      top: 326px;
-      width: 108px;
-      height: 107px;
-      z-index: 22;
-    }
-    .Shape_2 {
-      background-color: rgb(216, 236, 249);
-      position: absolute;
-      left: 452px;
-      top: 276px;
-      width: 78px;
-      height: 83px;
-      z-index: 21;
-    }
-    .Shape_5_copy {
-      background-color: rgb(174, 196, 211);
-      opacity: 0.388;
-      position: absolute;
-      left: 212px;
-      top: 543px;
-      width: 287px;
-      height: 23px;
-      z-index: 20;
-    }
-    .Shape_5 {
-      background-color: rgb(205, 229, 245);
-      opacity: 0.388;
-      position: absolute;
-      left: 228px;
-      top: 501px;
-      width: 271px;
-      height: 58px;
-      z-index: 19;
-    }
-    .Shape_2_copy_2 {
-      background-color: rgb(213, 226, 234);
-      opacity: 0.49;
-      position: absolute;
-      left: 354px;
-      top: 379px;
-      width: 165px;
-      height: 172px;
-      z-index: 18;
-    }
-    .Shape_2_copy_3 {
-      background-color: rgb(213, 226, 234);
-      opacity: 0.78;
-      position: absolute;
-      left: 303px;
-      top: 409px;
-      width: 198px;
-      height: 150px;
-      z-index: 17;
-    }
-    .Shape_2_copy_4 {
-      background-color: rgb(241, 241, 241);
-      opacity: 0.78;
-      position: absolute;
-      left: 294px;
-      top: 240px;
-      width: 340px;
-      height: 422px;
-      z-index: 16;
-    }
-    .Shape_3 {
-      background-color: rgb(213, 226, 234);
-      opacity: 0.4;
-      position: absolute;
-      left: 279px;
-      top: 557px;
-      width: 226px;
-      height: 155px;
-      z-index: 15;
-    }
-    .Shape_4_copy {
-      background-color: rgb(234, 239, 242);
-      opacity: 0.6;
-      position: absolute;
-      left: 418px;
-      top: 560px;
-      width: 187px;
-      height: 235px;
-      z-index: 14;
-    }
-    .Shape_4 {
-      background-color: rgb(228, 238, 244);
-      position: absolute;
-      left: 374px;
-      top: 558px;
-      width: 126px;
-      height: 219px;
-      z-index: 13;
-    }
-    .Shape_6 {
-      background-color: rgb(231, 236, 239);
-      position: absolute;
-      left: 443px;
-      top: 558px;
-      width: 247px;
-      height: 147px;
-      z-index: 12;
-    }
-    .Shape_1 {
-      background-color: rgb(248, 248, 248);
-      position: absolute;
-      left: 326px;
-      top: 279px;
-      width: 329px;
-      height: 490px;
-      z-index: 11;
-    }
-    
-    .Button {
-      border-radius: 2px;
-      background-image: -moz-linear-gradient( 90deg, rgb(0,0,0) 20%, rgb(255,255,255) 100%);
-      background-image: -webkit-linear-gradient( 90deg, rgb(0,0,0) 20%, rgb(255,255,255) 100%);
-      background-image: -ms-linear-gradient( 90deg, rgb(0,0,0) 20%, rgb(255,255,255) 100%);
-      position: absolute;
-      left: 567px;
-      top: 216px;
-      width: 96px;
-      height: 40px;
-      z-index: 39;
-    }
-
-    .Ellipse_1_copy {
-      border-radius: 50%;
-      background-color: rgb(185, 214, 239);
-      position: absolute;
-      left: 457px;
-      top: 530px;
-      width: 70px;
-      height: 70px;
-      z-index: 29;
-    }
-    
-    .Ellipse_1_copy_2 {
-      border-radius: 50%;
-      background-color: rgb(185, 214, 239);
-      position: absolute;
-      left: 566px;
-      top: 530px;
-      width: 70px;
-      height: 70px;
-      z-index: 32;
-    }
-    
