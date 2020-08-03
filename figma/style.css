@@ -5,6 +5,7 @@ body {
    width: 1920px;
    height: 1079px;
    border: 2px solid black;
+   display: block;
 }
 
 /*.car {
@@ -252,3 +253,14 @@ background: #FFFFFF;
    box-sizing: border-box;
    border-radius: 3px;
 }
+
+.work_zone {
+   position: absolute;
+   display: flex;
+   justify-content: center;
+   
+}
+/*#zone-2 {
+   display: flex;
+   flex-direction: row;
+}*/
