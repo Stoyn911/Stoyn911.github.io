@@ -11,9 +11,9 @@ body {
 .car {
 width: 1920px;
 height: 34px;
-left: 0px;
-top: 0px;
 background: #F5F7FA;
+
+
 
 /*padding-left: 0px;*/
 /*display: flex;
@@ -27,6 +27,7 @@ padding-right: 984px;
 display: flex;
 justify-content:space-between;
 color: #979FAD;
+
 }
 
 .line-right {
@@ -35,6 +36,7 @@ color: #979FAD;
    display: flex;
    justify-content:space-between;
    align-items: center;
+   
    
 }
 
@@ -318,4 +320,41 @@ align-items: center;
 
 color: #979FAD;
 margin-left: 19px;
+}
+
+.three {
+  display: block;
+   /*justify-content: flex-start;*/
+   margin-top: 20px;
+/*height: 153px;
+  width: 900px;*/
+  /*width: 855px;*/
+/*height: 0px;
+left: 685px;
+top: 350px;*/
+
+
+  
+}
+
+/*.image_left {
+   width: 36px;
+   height: 136px;
+   left: 685px;
+   top: 366px;
+}*/
+
+.line_top {
+display: flex;
+justify-content:space-between;
+margin-left: 22px;
+width: 715px;
+}
+
+/*.line-left {
+   display: flex;
+   justify-content: start;
+}
+.line_right{
+justify-content: flex-end;
 }
