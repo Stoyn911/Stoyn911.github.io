@@ -162,9 +162,10 @@ color: #989FA6;
 }
 
 .four {
-   background: #ffffff;
+   background: #d62f2f;
    display: flex;
    justify-content: flex-start;
+   
       }
 
 .raf {
@@ -189,6 +190,7 @@ color: #989FA6;
       /*padding-left: 784px;*/
       padding-top: 20px;
       padding: 23px;
+      
       /*display: flex;
       justify-content: flex-end;*/
       }
@@ -277,10 +279,7 @@ justify-content: center;
 
 color: #333333;
 
-width: 89px;
-height: 32px;
-left: 685px;
-top: 260px;
+
 
 border: 1.3px solid #FFAF1E;
 box-sizing: border-box;
@@ -289,7 +288,7 @@ margin-right: 9px;
 }
 
 .nalichie {
-   width: 141px;
+width: 141px;
 height: 31px;
 left: 1252px;
 top: 261px;
@@ -373,7 +372,7 @@ margin-left: 19px;
 justify-content:space-between;
 }
 
-.zaebalo {
+.ystal {
    justify-content: flex-start;
 align-items: center;
 }
@@ -389,7 +388,7 @@ align-items: center;
    display: flex;
    justify-content: space-around;
    flex-direction: column;
-   margin-left: -70px;
+   margin-left: -70px;     
 }
 
 .dollars {
@@ -437,6 +436,8 @@ align-items: center;
 justify-content: center;
 }
 
+
+
 .three {
   /*display: block;*/
    /*justify-content: flex-start;*/
@@ -467,7 +468,7 @@ justify-content:space-between;
 
 
 
-}
+
 
 /*.line-left {
    display: flex;
