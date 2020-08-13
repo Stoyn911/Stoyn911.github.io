@@ -1,12 +1,13 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
 
 body {
    background-color: #ffffff;
-   width: 920px;
+
    height: 1079px;
    /*border: 2px solid black;*/
    /*display: block;
    position: fixed;*/
+   font-size: 90%;
    
 }
 
@@ -27,6 +28,8 @@ height: 34px;
 background: #F5F7FA;
 display: flex;
 justify-content:space-between;
+
+
 
 
 /*padding-left: 0px;*/
@@ -52,8 +55,19 @@ align-items: center;
    justify-content: flex-end;
    align-items: center;
    
-   
-   
+}
+
+.kryg {
+   position: absolute;
+width: 12px;
+height: 12px;
+left: 1185px;
+top: 78px;
+
+background: #FFAF1E;
+text-align: center;
+border-radius: 50%;
+font-size: 75%;
 }
 
 .line-2  {
@@ -162,7 +176,7 @@ color: #989FA6;
 }
 
 .four {
-   background: #d62f2f;
+   background: #ffffff;
    display: flex;
    justify-content: flex-start;
    
@@ -189,7 +203,7 @@ color: #989FA6;
    .two {
       /*padding-left: 784px;*/
       padding-top: 20px;
-      padding: 23px;
+      padding: 10px;
       
       /*display: flex;
       justify-content: flex-end;*/
@@ -197,15 +211,15 @@ color: #989FA6;
 
 .gl {
    display: flex;
-   justify-content: flex-start;
-   align-items: center;
+   /*justify-content: flex-start;
+   align-items: center;*/
    
 }
 
 .glavna_1 {
-/*display: flex;*/
+display: flex;
 align-items: center;
-/*justify-content: flex-end;*/
+justify-content: flex-end;
 }
 
 .Zapchsti {
@@ -223,9 +237,7 @@ margin-top: 16px;
    font-family: Google Sans;
 font-size: 14px;
 line-height: 16px;
-display: flex;
-align-items: center;
-text-align: center;
+
 color: #333333;
 margin-right: 18px;
 margin-top: 20px;
@@ -238,7 +250,7 @@ justify-content:space-between;
 .two_legt {
    display: flex;
    justify-content: center;
-   /*padding-right: 405px;*/
+   padding-right: 190px;
    
 }
 
@@ -346,9 +358,12 @@ justify-content: center;
    margin-top: 20px;
 }
 
-/*.line_333 {
-   height: 100px;
-}*/
+.line_333 {
+   height: 1px;
+   background-color: seashell;
+   margin-bottom: 10px;
+   
+}
 
 .dolars {
    font-family: Google Sans;
@@ -372,8 +387,61 @@ margin-left: 19px;
 }
 
 .princ {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+  .right_end {
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-end;
+   align-items: center;
+   font-size: 90%;
+  }
+  
+  /*.stoyka {
    display: flex;
-justify-content:space-between;
+   justify-content: flex-start;
+   justify-content:space-between;
+}*/
+
+
+
+
+
+/*.kartina .stoyka .dollars .right_end {
+   display: flex;
+   justify-content: space-around;
+
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.bla {
+   display: flex;
+justify-content: space-around;
+font-size: 93%
 }
 
 .ystal {
@@ -381,18 +449,18 @@ justify-content:space-between;
 align-items: center;
 }
 
-/*.right_end {
+.right_end {
    display: flex;
    justify-content: center;
    justify-content: center;
-}*/
+}
 
 
 .stoyka {
    display: flex;
    justify-content: space-around;
    flex-direction: column;
-   margin-left: -70px;     
+   margin-left: 10px;     
 }
 
 .dollars {
@@ -402,15 +470,16 @@ align-items: center;
    }
 
    .right_end_top {
-      margin-right: 15px;
+      margin-right: px;
       
    }
 
 .right_end_end {
-margin-left: 90px;
+margin-left: 14px;
+
 }
 
-/*.right_end {
+.right_end {
    display: flex;
    justify-content: center;
    align-items: center;
@@ -419,32 +488,22 @@ margin-left: 90px;
 .right_end_end {
    width: 114px;
 height: 32px;
-left: 1401px;
-top: 260px;
-
 background: #FFAF1E;
 border: 1.3px solid #FFAF1E;
-box-sizing: border-box;
-border-radius: 3px;
-
-
-
 font-family: Google Sans;
 font-size: 14px;
 line-height: 16px;
-
 color: #FFFFFF;
-padding-right: 0px;
 display: flex;
 align-items: center;
 justify-content: center;
 }
-
-
+/*
+/*
 
 .three {
-  /*display: block;*/
-   /*justify-content: flex-start;*/
+  /*display: block;
+   /*justify-content: flex-start;
    margin-top: 20px;
 /*height: 153px;
   width: 900px;*/
@@ -461,7 +520,7 @@ justify-content:space-between;
 */
    
   
-}
+
 
 /*.image_left {
    width: 36px;
