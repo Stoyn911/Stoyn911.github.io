@@ -17,7 +17,6 @@ padding: 5%;
 }
 
 .card {
-
 position: absolute;
 width: 180px;
 height: 252px;
@@ -26,7 +25,6 @@ border-radius: 24px;
 background-color: white;
 margin-left: -72px;
 /*margin-top: 75px;*/
-
 }
 
 .procode {
@@ -51,7 +49,7 @@ margin-left: -72px;
    border-radius: 12px;
    height: 228px;
    color: rgb(240, 44, 44);
-}
+   }
 
 .card:hover .procode-1 {
    display: block;
@@ -68,7 +66,8 @@ margin-left: -72px;
      background-color: rgb(52, 223, 74);
   }*/
 
-  .crd10:hover {
+
+  .card:hover {
    top: -0px;
    z-index: 99;
    background-color: rgb(255, 255, 254)
@@ -80,10 +79,7 @@ margin-left: -72px;
   background-color: pink;
 }
 
-  .ProCode-1:active {
-   background-color: blue;
-   position: absolute;
-}
+
 
 .procode {
    left: 30px;
@@ -154,16 +150,91 @@ z-index: 11;
    margin-top: 60px;
 }
 
+.top_centr {
+   background-color: royalblue;
+}
+
 .centr {
    text-align: center;
    margin-top: 50px;
 }
 
+.crd9:hover {
+   top: -0px;
+   z-index: 98;
+   background-color: rgb(255, 255, 254)
+}
 
+.card:hover .procode-1 {
+   display: block;
+}
 
+.crd9:hover .procode {
+   display: none;
+  }
 
+  .card:hover .procode-1 {
+   display: block;
+}
 
+.crd8:hover .procode {
+   display: none;
+  }
+  .card:hover .procode-1 {
+   display: block;
+}
 
+.crd7:hover .procode {
+   display: none;
+  }
+
+  .card:hover .procode-1 {
+   display: block;
+}
+
+.crd6:hover .procode {
+   display: none;
+  }
+
+  .card:hover .procode-1 {
+   display: block;
+}
+
+.crd5:hover .procode {
+   display: none;
+  }
+
+  .card:hover .procode-1 {
+   display: block;
+}
+
+.crd4:hover .procode {
+   display: none;
+  }
+
+  .card:hover .procode-1 {
+   display: block;
+}
+
+.crd3:hover .procode {
+   display: none;
+  }
+
+  .card:hover .procode-1 {
+   display: block;
+}
+
+.crd2:hover .procode {
+   display: none;
+  }
+
+  .card:hover .procode-1 {
+   display: block;
+}
+
+.crd1:hover .procode {
+   display: none;
+  }
 
 
 
