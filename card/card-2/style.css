@@ -59,13 +59,6 @@ margin-left: -72px;
    display: none;
   }
 
-  /*.procode-1:hover {
-   display: none;
-     z-index: 99;
-     margin-top: -25px;
-     background-color: rgb(52, 223, 74);
-  }*/
-
 
   .card:hover {
    top: -0px;
@@ -74,8 +67,8 @@ margin-left: -72px;
 }
 
   .crd4:hover {
-   /*display: none;*/
-  transform: rotate(45deg); /* Equal to rotateZ(45deg) */
+
+  transform: rotate(45deg);
   background-color: pink;
 }
 
