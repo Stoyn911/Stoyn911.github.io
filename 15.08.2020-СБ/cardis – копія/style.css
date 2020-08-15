@@ -1,0 +1,256 @@
+:root {
+--card-width: 180px;
+}
+
+body {
+margin: 50px auto;
+width: 1800px;
+border: 2px solid rgb(255, 255, 255);  
+}
+
+.main {
+border: 2px solid rgb(255, 255, 255);
+margin: 20px;
+position: relative;
+min-height: 50px;
+padding: 5%;
+}
+
+.card {
+position: absolute;
+width: 180px;
+height: 252px;
+border: 1px solid black;
+border-radius: 24px;
+background-color: white;
+margin-left: -72px;
+/*margin-top: 75px;*/
+}
+
+.procode {
+   /*display: none;*/
+   margin: 12px;
+   background: repeating-linear-gradient(-60deg,
+   rgb(255, 255, 255),
+   rgb(255, 255, 255) 10px,
+   rgb(252, 2, 2) 10px,
+   rgb(252, 0, 0) 20px);
+   border-radius: 12px;
+   height: 228px;
+      }
+
+
+
+.procode-1 {
+   margin: 1px;
+   border-radius: 10px;
+   display: none;
+   margin: 12px;
+   border-radius: 12px;
+   height: 228px;
+   color: rgb(240, 44, 44);
+   }
+
+.card:hover .procode-1 {
+   display: block;
+}
+
+.crd10:hover .procode {
+   display: none;
+  }
+  
+
+
+  .card:hover {
+   top: -0px;
+   z-index: 99;
+   background-color: rgb(255, 255, 254)
+}
+
+  .crd4:hover {
+
+  transform: rotate(45deg);
+  background-color: pink;
+}
+
+
+.procode {
+   left: 1110px;
+z-index: 1;
+}
+
+.crd1 {
+left: 100px;
+z-index: 2;
+padding-top: 0em;
+/*display: none;*/
+}
+
+.crd2 {
+left: 200px;
+z-index: 3;
+}
+
+
+.crd3 {
+left: 300px;
+z-index: 4;
+}
+
+.crd4 {
+left: 400px;
+z-index: 5;
+}
+
+.crd5 {
+left: 500px;
+z-index: 6;
+}
+
+.crd6 {
+left: 600px;
+z-index: 7;
+}
+.crd7 {
+left: 700px;
+z-index: 8;
+}
+
+.crd8 {
+left: 800px;
+z-index: 9;
+}
+
+.crd9 {
+left: 900px;
+z-index: 10;
+}
+
+.crd10 {
+left: 1000px;
+z-index: 11;
+}
+
+
+.top {
+   font-size: 18px;
+   
+}
+
+.bottom {
+   font-size: 18px;
+   text-align: end;
+   margin-top: 60px;
+}
+
+.top_centr {
+   background-color: royalblue;
+}
+
+.centr {
+   text-align: center;
+   margin-top: 50px;
+}
+
+.crd9:hover {
+   top: -0px;
+   z-index: 98;
+   background-color: rgb(255, 255, 254)
+}
+
+.card:hover .procode-1 {
+   display: block;
+}
+
+.crd9:hover .procode {
+   display: none;
+  }
+
+  .card:hover .procode-1 {
+   display: block;
+}
+
+.crd8:hover .procode {
+   display: none;
+  }
+  .card:hover .procode-1 {
+   display: block;
+}
+
+.crd7:hover .procode {
+   display: none;
+  }
+
+  .card:hover .procode-1 {
+   display: block;
+}
+
+.crd6:hover .procode {
+   display: none;
+  }
+
+  .card:hover .procode-1 {
+   display: block;
+}
+
+.crd5:hover .procode {
+   display: none;
+  }
+
+  .card:hover .procode-1 {
+   display: block;
+}
+
+.crd4:hover .procode {
+   display: none;
+  }
+
+  .card:hover .procode-1 {
+   display: block;
+}
+
+.crd3:hover .procode {
+   display: none;
+  }
+
+  .card:hover .procode-1 {
+   display: block;
+}
+
+.crd2:hover .procode {
+   display: none;
+  }
+
+  .card:hover .procode-1 {
+   display: block;
+}
+
+.crd1:hover .procode {
+   display: none;
+  }
+
+  .card:hover .procode-1 {
+   display: block;
+}
+
+.crd10:hover .procode {
+   display: none;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
