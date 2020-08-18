@@ -1,0 +1,297 @@
+@font-face {
+   font-family: "HouschkaPro";
+   src: url('./fonts/HouschkaPro-Bold.ttf') 
+}
+
+html {
+  background-color: #b9d6ef;
+  z-index: 1;
+}
+
+
+body {
+   margin: 0 auto;
+   width: 980px;
+   height: 3000px;
+   position: relative;
+}
+
+
+
+
+
+
+.main {
+  padding: 10px;
+  width: fit-content;
+  margin: px auto;
+  background-color: rgb(38, 107, 151);
+  z-index: 3;
+}
+
+.bacgraund {
+
+   position: absolute;
+   left: 0px;
+   top: 0px;
+background-color: #b9d6ef;;
+
+
+   
+   z-index: 1;
+ }
+
+.cloud_left {
+   width: 200px;
+   height: 76px;
+
+   position: absolute;
+   top: -1px;
+   right: 160px;
+   bottom: 0px;
+   left: 130px;
+   z-index: 3;
+}
+
+.Cloud {
+
+
+      position: absolute;
+      left: 512px;
+      top: -1px;
+      width: 375px;
+      height: 225px;
+      z-index: 3;
+    }
+    
+    .ice {
+      position: absolute;
+      left: 325px;
+      top: 277px;
+      width: 980px;
+      height: 800px;
+      z-index: 24;
+    }
+
+    .ship {
+
+      position: absolute;
+      left: 301px;
+      top: 452px;
+      width: 48px;
+      height: 21px;
+      z-index: 8;
+    }
+    
+
+    .Ellipse_1 {
+    position: absolute;
+    left: 325px;
+    top: 277px;
+    width: 980px;
+    height: 800px;
+    z-index: 24;
+    text-align: center; 
+      
+    font-size: 24px;
+font-family: "HouschkaPro";
+color: rgb(38, 107, 151);
+   }
+
+   .Ellipse_1_copy_2 {
+      border-radius: 50%;
+      background-color: rgb(185, 214, 239);
+      position: absolute;
+      left: 566px;
+      top: 530px;
+      width: 70px;
+      height: 70px;
+      z-index: 32;
+      text-align: center; 
+      
+      font-size: 24px;
+font-family: "HouschkaPro";
+color: rgb(38, 107, 151);
+    }
+    
+    .Ellipse_1_copy {
+      border-radius: 50%;
+      background-color: rgb(185, 214, 239);
+      position: absolute;
+      left: 457px;
+      top: 530px;
+      width: 70px;
+      height: 70px;
+      z-index: 29;
+      text-align: center; 
+      
+      font-size: 24px;
+font-family: "HouschkaPro";
+color: rgb(38, 107, 151);
+
+    }
+
+    ._09 {
+      font-size: 24px;
+
+      color: rgb(38, 107, 151);
+      line-height: 0.667;
+      text-align: left;
+      position: absolute;
+      left: 477.937px;
+      top: 557.996px;
+      z-index: 30;
+    }
+    
+
+    .Ellipse_1 {
+      border-radius: 50%;
+      background-color: rgb(185, 214, 239);
+      position: absolute;
+      left: 344px;
+      top: 530px;
+      width: 70px;
+      height: 70px;
+      z-index: 26;
+    }
+    
+    /*.Rectangle_1_copy {
+      background-color: rgb(38, 107, 151);
+      position: absolute;
+      left: 0px;
+      top: 474px;
+      width: 980px;
+      height: 343px;
+      z-index: 7;
+    }*/
+    
+    .Rectangle_1 {
+      background-color: rgb(50, 125, 173);
+      position: absolute;
+      left: -2000px;
+      top: 464px;
+      width: 30000px;
+      height: 9px;
+      z-index: 6;
+    }
+    
+    .Rectangle_1_copy_2 {
+      background-color: rgb(221, 236, 250);
+      position: absolute;
+      left: -2000px;
+      top: 464px;
+      width: 30000px;
+      height: 6px;
+      z-index: 5;
+    }
+    
+    .MINS {
+      color: rgb(255, 255, 255);
+      font-size: 24px;
+font-family: "HouschkaPro";
+font-weight: bold;
+margin-top: 21px;
+    }
+    
+    .HOURS {
+      font-size: 24px;
+      font-family: "HouschkaPro";
+      color: rgb(255, 255, 255);
+      font-weight: bold;
+      z-index: 31;
+      margin-top: 21px;
+      margin-left: -9px;
+    }
+    
+    .DAYS {
+      font-size: 24px;
+      font-family: "HouschkaPro";
+      color: rgb(255, 255, 255);
+      font-weight: bold;
+      z-index: 28;
+      margin-top: 21px;
+    }
+    
+    .COMING_SOON {
+      font-size: 72px;
+      font-family: "HouschkaPro";
+      color: rgb(254, 254, 254);
+      font-weight: bold;
+      line-height: 0.222;
+      text-align: left;
+      text-shadow: 0px 4px 0px rgba(0, 0, 0, 0.17);
+      position: absolute;
+      left: 241.937px;
+      top: 131.008px;
+      z-index: 43;
+    }
+    
+    .SUBSCRIBE_TO_GET_NOTIFIED_ON_UPDATES {
+      font-size: 14px;
+      font-family: "HouschkaPro";
+      color: rgb(38, 107, 151);
+      line-height: 1.143;
+      text-align: left;
+      position: absolute;
+      left: 346.134px;
+      top: 182.999px;
+      z-index: 42;
+    }
+
+    .Background {
+      border-radius: 4px;
+      background-image: -moz-linear-gradient( 90deg, rgb(240,240,240) 0%, rgb(235,235,235) 100%);
+      background-image: -webkit-linear-gradient( 90deg, rgb(240,240,240) 0%, rgb(235,235,235) 100%);
+      background-image: -ms-linear-gradient( 90deg, rgb(240,240,240) 0%, rgb(235,235,235) 100%);
+      box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.004),inset 0px 2px 5px 0px rgba(29, 26, 22, 0.2);
+      position: absolute;
+      left: 319px;
+      top: 217px;
+      width: 240px;
+      height: 37px;
+      z-index: 37;
+      
+      font-size: 12px;
+      font-family: "HouschkaPro";
+      color: rgb(128, 128, 128);
+      line-height: 3.083;
+      text-align: left;
+    }
+    
+    
+    .Button {
+
+      font-size: 14px;
+      font-family: "HouschkaPro";
+      color: rgb(255, 255, 255);
+      font-weight: bold;
+      line-height: -1.786;
+      text-align: center;
+
+
+         position: absolute;
+         left: 567px;
+         top: 216px;
+         width: 96px;
+         height: 40px;
+         z-index: 39;
+       }
+       
+
+.SUBSCRIBE {
+   font-family: "HouschkaPro";
+   margin-top: -27px;
+}
+
+
+    
+    .Rectangle_2 {
+      background-color: rgb(38, 107, 151);
+      opacity: 0.6;
+      position: absolute;
+      left: -1980px;
+      top: 474px;
+      width: 10604px;
+      height: 10295px;
+      z-index: 25;
+    }

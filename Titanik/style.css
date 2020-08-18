@@ -1,0 +1,100 @@
+
+
+body {
+   margin: 50px auto;
+   width: 980px;
+   height: 800px;
+}
+
+.Шар_0 {
+   background-image: url("image/Шар\ 0.png");
+   position: absolute;
+   left: 0px;
+   top: 0px;
+   width: 980px;
+   height: 800px;
+   z-index: 1;
+ }
+
+.ice {
+   width: 330px;
+   height: 490px;
+   background-color: rgb(185, 214, 239);
+   position: absolute;
+   top: 265px;
+   right: 0px;
+   bottom: 0px;
+   left: 327px;
+   z-index: 8;
+}
+
+.Cloud-left {
+   width: 200px;
+   height: 76px;
+   /*background-color: rgb(219, 33, 33);*/
+   position: absolute;
+   top: -16px;
+   right: 0px;
+   bottom: 0px;
+   left: 131px;
+   z-index: 3;
+}
+
+.Cloud {
+   width: 350px;
+   height: 76px;
+   /*background-color: rgb(219, 33, 33);*/
+   position: absolute;
+   top: -16px;
+   right: 0px;
+   bottom: 0px;
+   left: 512px;
+   z-index: 4;
+}
+
+.ship {
+   position: absolute;
+   left: 301px;
+   top: 438px;
+   width: 48px;
+   height: 21px;
+   z-index: 8;
+}
+
+/*.Rectangle_1_copy { 
+   background-color: rgb(38, 107, 151);
+   position: absolute;
+   left: 0px;
+   top: 477px;
+   width: 980px;
+   height: 343px;
+   z-index: 7;
+ }*/ /* ВОТ ЭТО КАК НА ЗАДНИЙ ПЛАН СПРЯТАТЬ?????? */
+ 
+
+ .Rectangle_2 {
+   background-color: rgb(38, 107, 151);
+   opacity: 0.812;
+   position: absolute;
+   left: 221px;
+   top: 474px;
+   width: 604px;
+   height: 295px;
+   z-index: 9;
+ }
+
+ .COMING_SOON {
+   font-size: 72px;
+   font-family: "HouschkaPro";
+   color: rgb(240, 25, 25);
+   font-weight: bold;
+   line-height: 0.222;
+   text-align: left;
+   text-shadow: 0px 4px 0px rgba(0, 0, 0, 0.17);
+   position: absolute;
+   left: 241.937px;
+   top: 131.008px;
+   z-index: 1;
+ }
+ 
+ 
