@@ -1,0 +1,466 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+
+body {
+   background-color: #ffffff;
+
+   /*height: 1120px;*/
+   /*border: 2px solid black;*/
+   /*display: block;
+   position: fixed;*/
+   /*font-size: 90%;*/
+}
+
+.figma {
+   /*height: 980px;*/
+   font-size: 90%;
+   max-width: 920px;
+   /*height: 920px;*/
+   margin: 0 auto;
+
+}
+
+.one {
+   height: 36px;
+   display: flex;
+   justify-content: flex-end;
+   background: #F2F2F2;
+   align-items: center;
+   }
+
+.feedback {
+      padding-right: 77px;
+   }
+
+.two {
+   height: 83px;
+   background: #FFFFFF;
+   border: 1px solid #E8E8EE;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.vector_div {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   margin: 2px;
+}
+
+.vector_div_1 {
+   background: #000000;
+   transform: matrix(-1, 0, 0, 1, 0, 0);
+   width: 26px;
+   height: 2.24px;
+   margin: 2px;
+}
+
+.vector_div_2 {
+   background: #000000;
+   transform: matrix(-1, 0, 0, 1, 0, 0);
+   width: 26px;
+   height: 2.24px;
+   margin: 2px;
+}
+
+.vector_div_3 {
+   background: #000000;
+   transform: matrix(-1, 0, 0, 1, 0, 0);
+   width: 26px;
+   height: 2.24px;
+   margin: 2px;
+}
+
+.search_town {
+   display: flex;
+   justify-content:space-between;
+   align-items: center;
+   background: #FCFCFC;
+   border: 1px solid #E8E8EE;
+   box-sizing: border-box;
+   border-radius: 3px;
+   width: 475px;
+   height: 44px;
+}
+
+@media (max-width: 750px) {
+ .search_town {
+    display: none;
+   }
+}
+
+.three_MB {
+   display: flex;
+   justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+@media (min-width: 750px) {
+   .three_MB {
+      display: none;
+     }
+  }
+
+
+.sale_ad {
+   width: 218px;
+   height: 44px;
+   left: 1297px;
+   top: 56px;
+   background: linear-gradient(245.23deg, #32228A -43.18%, #745ACD 100%), #C4C4C4;
+   border-radius: 3px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-family: Google Sans;
+   font-size: 14px;
+   line-height: 16px;
+   color: #FFFFFF;
+}
+
+.three {
+   display: flex;
+   justify-content:space-between;
+   background: #ffffff;
+   align-items: center;
+   font-family: Google Sans;
+   font-size: 22px;
+   line-height: 15px;
+   color: #FFFFFF;
+   flex-wrap: wrap;
+ }
+
+ @media (max-width: 750px) {
+    .three {
+       display: none;
+    }
+ }
+
+ @media (max-width: 750px) {
+   .search_town {
+      display: none;
+     }
+  }
+
+.telephone_left {
+   background: linear-gradient(90deg, #FF9191 0%, #FF7878 100.03%);
+   border-radius: 5px;
+   display: flex;
+   align-items: flex-end;
+}
+
+.car_centr {
+   margin: 18px;
+   background: linear-gradient(90deg, #56CCF2 0%, #FFD659 98.78%);
+   border-radius: 5px;
+   display: flex;
+   align-items: flex-end;
+}
+
+.telephone_right {
+   display: flex;
+   align-items: flex-end;
+   background: linear-gradient(90deg, #FF9191 0%, #FF7878 100.03%);
+   border-radius: 5px;
+}
+
+/*.left_botton {
+
+}
+
+.telephone {
+
+}
+
+.telephone_left_1 {
+
+}*/
+
+.four {
+   border: 1px solid #E8E8EE;
+   }
+
+.all_announcements {
+font-family: Google Sans;
+font-size: 24px;
+line-height: 28px;
+
+color: #333333;
+
+display: flex;
+justify-content: flex-end;
+align-items: center;
+}
+
+.five {
+   display: flex;
+   justify-content: center;
+   justify-content:space-between;
+   height: 60px;
+}
+
+.AB {
+   display: flex;
+   justify-content: flex-end;
+   justify-content: center;
+   justify-content:space-between;
+   width: 300px;
+}
+
+
+
+  @media (max-width: 750px) {
+   .AB {
+      display: none;
+     }
+  }
+
+
+.AB_BB_CP {
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+}
+
+
+
+  @media (min-width: 750px) {
+   .AB_BB_CP {
+      display: none;
+
+      
+   }
+}
+
+ 
+
+.BB {
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+}
+
+
+
+.valyta {
+   font-family: Google Sans;
+   font-size: 18px;
+   line-height: 21px;
+   display: flex;
+   align-items: center;
+   color: #333333;
+}
+
+
+
+.bitcoin {
+   font-family: Google Sans;
+   font-size: 14px;
+   line-height: 21px;
+   display: flex;
+   align-items: center;
+   color: #979FAD;
+   padding-left: 10px;
+}
+
+.price {
+   font-family: Google Sans;
+   font-size: 14px;
+   line-height: 21px;
+   display: flex;
+   align-items: center;
+   color: #333333;
+   padding-right: 10px;
+   }
+   
+   .Ascending {
+      font-family: Google Sans;
+   font-size: 14px;
+   line-height: 21px;
+   display: flex;
+   align-items: center;
+   color: #979FAD;
+   }
+
+.CP {
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+}
+
+
+
+.six {
+   display: flex;
+   justify-content: space-around;
+   /*display: inline-block;*/
+   margin: 7px;
+   border: 1px solid #E8E8EE;
+  /* display: flex;
+   justify-content: center;
+align-items: center;
+*/
+flex-wrap: wrap;
+/*flex-direction: */
+}
+
+
+
+@media (max-width: 750px) {
+   .six {
+      display: none;
+     }
+  }
+
+
+.six_1 {
+   display: flex;
+   justify-content: space-around;
+   /*display: inline-block;*/
+   margin: 7px;
+   border: 1px solid #E8E8EE;
+  /* display: flex;
+   justify-content: center;
+align-items: center;
+*/
+flex-wrap: wrap;
+}
+
+@media (min-width: 750px) {
+   .six_1 {
+      display: none;
+     }
+  }
+
+
+
+
+
+.BS {
+display: flex;
+flex-direction: column;
+margin: 13px;
+justify-content: flex-start;
+height: 40px;
+
+}
+
+.line_botton {
+   display: flex;
+   justify-content: space-around;
+   height: 035px;
+   border: 1px solid #E8E8EE;
+   align-items: center;
+}
+
+.BTC {
+   font-family: Google Sans;
+   font-size: 24px;
+   line-height: 28px;
+   color: #333333;
+}
+
+.car_centr {
+   margin: 18px;
+   background: linear-gradient(90deg, #56CCF2 0%, #FFD659 98.78%);
+   border-radius: 5px;
+   width: 260px;
+   display: flex;
+   align-items: flex-end;
+   justify-content:space-between;
+}
+
+
+
+
+ /*
+ .telephone_left {
+    background-image: url(./image/image\ \(3\).png);
+    background-size: contain;
+background-repeat: no-repeat;
+width: 357.88px;
+height: 169px;
+ }
+
+ .car_centr {
+    background: linear-gradient(90deg, #56CCF2 0%, #FFD659 98.78%);
+    border-radius: 5px;
+
+    width: 357.88px;
+    height: 169px;
+position: relative;
+ }
+
+ .telephone_right {
+   background-image: url(./image/image\ \(3\).png);
+   background-size: contain;
+background-repeat: no-repeat;
+width: 357.88px;
+height: 169px;
+ }
+
+ .car {
+   background-image: url(./image/image\ \(1\).png);
+   border-radius: 5px;
+   width: 357.88px;
+   height: 169px;
+   position: absolute;
+   top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+background-repeat: no-repeat;
+background-position-x: right;
+background-size: contain;
+ }
+
+/*.telephone_left {
+   display: flex;
+   align-items: flex-end;
+
+   border: 2px solid #f51818;
+   margin: auto;
+   background-size: cover;
+   }
+
+   .telephone {
+      border: 2px solid #e61c1c;
+      margin: auto;
+      width: 246px;
+   }
+
+.telephone_right {
+   display: flex;
+   align-items: flex-end;
+   border: 2px solid #ee1f1f;
+   margin: auto;
+
+   background-size: cover;
+}
+
+.car_centr {
+
+   border: 2px solid #ee1a1a;
+  
+   
+}
+.telephone > img {
+   width: 100%
+ }
+
+ .telephone_1 > img {
+   width: 95%
+    }
+
+.car > img {
+   width: 100%
+ }
+ 
+ .telephone_1 {
+   background-image: url(./image/image\ \(3\).png);
+   width: 357.88px;
+height: 169px;
+
+ }*/
