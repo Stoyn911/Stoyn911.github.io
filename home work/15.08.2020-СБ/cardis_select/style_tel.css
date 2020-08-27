@@ -13,7 +13,7 @@ body {
 .figma {
    /*height: 980px;*/
    font-size: 90%;
-   max-width: 920px;
+   max-width: 1120px;
    /*height: 920px;*/
    margin: 0 auto;
 
@@ -95,6 +95,10 @@ body {
    justify-content: center;
 align-items: center;
 flex-direction: column;
+
+
+border-radius: 5px;
+
 }
 
 @media (min-width: 750px) {
@@ -126,10 +130,11 @@ flex-direction: column;
    background: #ffffff;
    align-items: center;
    font-family: Google Sans;
-   font-size: 22px;
+   font-size: 16px;
    line-height: 15px;
    color: #FFFFFF;
    flex-wrap: wrap;
+   
  }
 
  @media (max-width: 750px) {
@@ -149,14 +154,18 @@ flex-direction: column;
    border-radius: 5px;
    display: flex;
    align-items: flex-end;
+   width: 357.88px;
+   height: 169px;
 }
 
 .car_centr {
    margin: 18px;
-   background: linear-gradient(90deg, #56CCF2 0%, #FFD659 98.78%);
+   background: linear-gradient(90deg, #56CCF2 0%, #FFD659 80.78%);
    border-radius: 5px;
    display: flex;
    align-items: flex-end;
+   width: 357.88px;
+   height: 169px;
 }
 
 .telephone_right {
@@ -164,6 +173,8 @@ flex-direction: column;
    align-items: flex-end;
    background: linear-gradient(90deg, #FF9191 0%, #FF7878 100.03%);
    border-radius: 5px;
+   width: 357.88px;
+   height: 169px;
 }
 
 /*.left_botton {
@@ -366,7 +377,8 @@ height: 40px;
    margin: 18px;
    background: linear-gradient(90deg, #56CCF2 0%, #FFD659 98.78%);
    border-radius: 5px;
-   width: 260px;
+   width: 357.88px;
+   height: 169px;
    display: flex;
    align-items: flex-end;
    justify-content:space-between;
