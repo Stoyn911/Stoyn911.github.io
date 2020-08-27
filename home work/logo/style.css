@@ -18,23 +18,26 @@ padding-left: 25px;
 .line_right {
    display: flex;
    align-items: center;
-   padding: 25px;
+   padding: 105px;
    }
 
    .menu_1:hover > .its {
       color: rgb(0, 0, 0);
       display: block;
+      display: flex;
 
    }
 
 .menu_2:hover > .its {
       color: rgb(0, 0, 0);
       display: block;
+      display: flex;
    }
 
 .menu_3:hover > .its {
       color: rgb(10, 9, 1);
       display: block;
+      display: flex;
    }
    
 
@@ -49,15 +52,29 @@ padding-left: 25px;
 .menu_2 {
    margin: 50px;
    height: 0px;
-
 }
 
 .menu_1 {
    height: 0px;
-
 }
 
 .menu_3 {
    height: 0px;
-
 }
+
+.its {
+   background-color: rgb(252, 25, 25);
+   position: relative;
+   font-size: 20px;
+   width: 90px;
+}
+
+.its:hover > .asd {
+   display: block;
+}
+
+.asd {
+   display: none;
+   scroll-padding-left: ;
+}
+
