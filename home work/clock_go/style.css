@@ -1,0 +1,67 @@
+html{
+	box-sizing: border-box;
+}
+*, *::before, *::after{
+	box-sizing: inherit;
+}
+
+
+.timer__main {
+	width: 180px;
+	height: 80px;
+	border: 1px solid rgb(0, 0, 0);
+
+}
+.timer__main-clock {
+	font-size: 58px;
+	padding-top: 5px;
+}
+
+.timer-btn {
+	width: 180px;
+	height: 50px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: relative;
+}
+input {
+	width: 85px;
+	height: 35px;
+	padding-left: 10px;
+}
+button {
+	width: 85px;
+	height: 35px;
+
+}
+button::before {
+;
+}
+.raw {
+   font-size: 2rem;
+	position: absolute;
+	top: -58px;
+	right: 10px;
+   display: none;
+   
+}
+
+.play-btn:active + .raw{
+	display: block;
+}
+
+
+.raw {
+	animation: spin 0.5s infinite linear;
+  }
+
+  @keyframes spin {
+   0% {
+     transform: rotate(0deg);
+   }
+ 
+   100% {
+     transform: rotate(359deg);
+   }
+ }
