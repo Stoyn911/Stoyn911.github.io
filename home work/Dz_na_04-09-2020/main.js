@@ -1,8 +1,18 @@
-let move = 'off';
+function changeBackground(color) {
+   var div = document.body.style.background = color;
+}
+
+window.addEventListener("load", function() {changeBackground('green');});
+
+
+
+/*let move = 'off';
 let door = 'closed';
 let code = 'xxxx';
 if (move === 'off' && door === 'closed') alert('code')
 console.log('code')
+
+*/
 
 /*
 const cat = {
