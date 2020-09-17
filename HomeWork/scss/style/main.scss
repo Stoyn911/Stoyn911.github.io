@@ -1,0 +1,178 @@
+main {
+   box-sizing: border-box;
+   height: 100vh;
+   border: 2px solid green;
+   display: grid;
+   grid-template-columns: 
+      2fr 3fr 1.5fr 4.5fr;
+   grid-template-rows: 
+      0.5fr 3fr 2fr 0.5fr 2fr 1.5fr;
+   grid-template-areas: 
+      "lg lg lg lg"
+      "as tp tp tp"
+      "as fl fl fl"
+      "or or or or"
+      "dd dd dd dd"
+      "hi hi hi hi"
+      ;
+      
+};
+
+main div {
+   border: 1px solid black;
+   
+}
+
+.logo-about {
+   grid-area: lg;
+}
+
+@media screen and (min-width: 400px) {
+   .logo-about {
+      display: grid;
+      grid-template-columns: 7.5fr 4.5fr;
+   }
+};
+
+
+.two-pics {
+   grid-area: tp;
+   display: grid;
+      
+   .pic1, .pic2 {
+      width: 200px;
+      display: block;
+      max-height: 20vh;
+      overflow-y: auto;
+      display: flex;
+      align-items: center;      
+      
+   }
+   .pic2 {
+      width: 200px;
+      justify-self: right;
+   }
+}
+
+
+.flowers {
+   grid-area: fl;
+}
+
+.one-row-text {
+   grid-area: or;
+   display: grid;
+   align-items: center;
+}
+
+@media screen and (max-width: 400px) {
+   .anim {
+      display: none;
+   }
+   .one-row-text {
+      display: none;
+   }
+};
+
+.div10div11 {
+   grid-area: dd;
+   max-height: 20vh;
+   overflow-y: auto;
+   background-color: chartreuse;
+ }
+
+
+
+@media screen and (min-width: 400px) {
+   .div10div11 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+   }
+};
+
+.hills {
+   grid-area: hi;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.aside {
+   background-color: rgb(165, 238, 159);
+   display: grid;
+   grid-template-columns: 1fr 1fr ;
+   overflow-y: auto;
+   grid-area: as;
+   grid-column-gap: 10px;
+   grid-row-gap: 10px;
+   
+}
+
+@media screen and (max-width: 400px) {
+   .aside {
+      display: grid;
+      grid-template-columns: 1fr 1fr ;
+      overflow-y: auto;
+      grid-column-gap: 2px;
+      grid-row-gap: 2px;
+
+   }
+}
+
+
+/*
+.klo_3 {
+   border: 1px solid black;
+   height: 95px;
+   width: 55px;
+   background-color: rgb(241, 53, 84);
+   margin: 5px;
+}
+
+.klo_4 {
+   border: 1px solid black;
+   height: 95px;
+   width: 55px;
+   background-color: crimson;
+   margin: 5px;
+};
+
+.klo_5 {
+   border: 1px solid black;
+   height: 95px;
+   width: 55px;
+   background-color: crimson;
+   margin: 5px;
+};
+
+.klo_6 {
+   border: 1px solid black;
+   height: 95px;
+   width: 55px;
+   background-color: crimson;
+   margin: 5px;
+};
+
+.klo_7 {
+   border: 1px solid black;
+   height: 95px;
+   width: 55px;
+   background-color: crimson;
+   margin: 5px;
+};
+
+.klo_8 {
+   border: 1px solid black;
+   height: 95px;
+   width: 55px;
+   background-color: crimson;
+   margin: 5px;
+};
+
+.klo_9 {
+   border: 1px solid black;
+   height: 95px;
+   width: 55px;
+   background-color: crimson;
+   margin: 5px;
+};*/
